@@ -1,2 +1,1 @@
-# bazirac.github.io
-bazirac github page
+Bazirac's Github Page
