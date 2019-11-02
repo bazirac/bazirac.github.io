@@ -1,0 +1,36 @@
+body{
+    margin:0;
+    padding:0;
+    font-family:sans-serif;
+    justify-content: center;
+    align-items: center;
+}
+section{
+    position: absolute;
+    width:100%;
+    height:100%;
+    cursor: url('./resources/cursor.png'), pointer;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+section:active{
+    cursor: url('./resources/cursorclicked.png'), pointer;
+}
+h2{
+    margin:0;
+    padding:0;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+a{
+    cursor: url('./resources/cursor.png'), pointer;
+    text-decoration: none;
+}
+a:active{
+    cursor: url('./resources/cursorclicked.png'), pointer;
+}
+h2:hover{
+    color:#ccc;
+}
